@@ -3,17 +3,19 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import CurrentProject from "./components/CurrentProject";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+import Resume from "./components/Resume";
 
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
+      <CurrentProject />
       <Projects />
       <Skills />
-      <Testimonials />
+      <Resume />
       <Contact />
     </main>
   );

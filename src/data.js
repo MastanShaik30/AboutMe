@@ -4,57 +4,41 @@ export const projects = [
     subtitle: "Java Software Developer",
     description:
       "Worked as a Java Software Developer, helped the Backend team in integrating Akamai Video urls using rest api. The tech stack involves Spring boot Microservices, ActiveMQ, Oracle DB, Docker, AWS EC2 and ECS.",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    image: "./March_Madness.gif",
+    link: "https://www.ncaa.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Verizon Wireless",
+    subtitle: "Full Stack Software Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "wokred on migrating a Legacy Contracting system into a Hybrid platform which involves spring boot microservices, salesforce Integration. The Techstack involves Springboot microservies, Apex coding, Informatica, EC2, Kubernetes, React js.",
+    image: "./Verizon.gif",
+    link: "https://www.verizon.com/business/",
   },
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
 ];
 
+
+export const currentProject = [{
+  title: "Home Depot",
+  subtitle: "Software Engineer II",
+  description:
+    "Working as a Software Engineer II on HomeDepot main site. The Cart and Checkout functionality is the main module I am working. The fullfilement and Protection plan are exposed via API's and consumed by React js UI. The Tech stack involes React js, Spring boot Microservices, Google Cloud Platform, Graphql, Cassandra",
+  image: "./homedepot.gif",
+  link: "https://www.homedepot.com",
+}];
+
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Spring Boot",
+  "Java",
+  "Microservices",
+  "React JS",
+  "Active MQ",
+  "Docker",
+  "AWS",
+  "Oracle",
+  "APIGEE",
+  "Rest API"
 ];

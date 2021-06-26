@@ -28,16 +28,16 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
-            width="100%"
-            height="100%"
-            title="map"
-            className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+          <iframe 
+          width="100%"
+          height="100%"
+          title="map"
+          className="absolute inset-0"
+          frameBorder={0}
+          marginHeight={0}
+          marginWidth={0}
+          style={{ filter: "opacity(0.7)" }}
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.325340927448!2d-84.31883888493641!3d34.009858980617494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50b2612617c75%3A0x92201be485b3a10d!2s711%20Harbor%20Landing%2C%20Roswell%2C%20GA%2030076!5e0!3m2!1sen!2sus!4v1624677855499!5m2!1sen!2sus" 
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -72,8 +72,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Please reach out to me via the form submission, thank you!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
