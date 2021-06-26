@@ -39,7 +39,7 @@ export default function Contact() {
           style={{ filter: "opacity(0.7)" }}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.325340927448!2d-84.31883888493641!3d34.009858980617494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50b2612617c75%3A0x92201be485b3a10d!2s711%20Harbor%20Landing%2C%20Roswell%2C%20GA%2030076!5e0!3m2!1sen!2sus!4v1624677855499!5m2!1sen!2sus" 
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          {/*<div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -62,7 +62,7 @@ export default function Contact() {
               <p className="leading-relaxed">404-820-5556</p>
             </div>
           </div>
-        </div>
+        </div>*/}
         <form
           netlify
           name="contact"
