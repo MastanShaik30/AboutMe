@@ -61,8 +61,8 @@ export default function Contact() {
               </h2>
               <p className="leading-relaxed">404-820-5556</p>
             </div>
-          </div>
-        </div>*/}
+          </div>*/}
+        </div>
         <form
           netlify
           name="contact"
